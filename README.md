@@ -2,6 +2,7 @@
 Python modules to process tomograms. This is the updated version of my previous scripts and now availiable via pip
 
 pip install ProcessTomo
+this is the alpha version and works only with tomograms taken with Serial-EM
 
 
 # Tomo
