@@ -1,0 +1,56 @@
+#working directory
+cwd = script_test12
+
+# directory containing the raw data file like mrc.mdoc files and mrc files
+raw_data = c44-1-mmongrid1
+
+# directory containing frames
+frames = moongrid_frames
+
+#no need to change if anything else it wont work
+files = *.mrc.mdoc
+
+# prefix of the tomograms he prefix used for tomo,it should be similar for all tomograms,for eg. prefix for tomo01.mrc,tomo02.mrc will be "tomo"
+prefix = 0
+
+#electron_dose per frame in A2
+e_dose = 1.57
+
+#krios=300kv glacios = 200kv
+kv = 300
+
+# pixel size of raw tiff images for motioncorr # raw files are binned during motion corr(superresolution)
+pix = 1.678
+
+# spherical aberration
+cs = 2.7
+
+# amplitude contrast
+ampc = 0.1
+
+#pix*2
+R_pix= 3.35
+
+# if no gain file leave it empty
+gain_file =
+
+# if no defect file leave it empty
+def_file =
+
+# no rotation of gain file
+rot = 0
+
+# no flip of gain file
+flip = 0
+
+# normally 2 for the superresoultion file
+bin_f = 2
+
+#do you want to sort tomograms, yes=1,No=0
+sort = 0
+
+#do you want to motioncorr,yes = 1,No=0
+motion = 1
+
+#do ctf-estimation,yes=1,no=0
+ctf=0
