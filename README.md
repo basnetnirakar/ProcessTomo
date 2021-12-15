@@ -1,5 +1,5 @@
 # ProcessTomo
-Python modules to process tomograms
+Python modules to process tomograms. This is the updated version of my previous scripts and now availiable via pip
 
 pip install ProcessTomo
 
